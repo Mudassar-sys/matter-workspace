@@ -64,8 +64,8 @@ Environment:
 | `AUTH_MICROSOFT_ENTRA_ID_ID` | App registration, Application (client) ID |
 | `AUTH_MICROSOFT_ENTRA_ID_SECRET` | App registration, Certificates and secrets |
 | `AUTH_MICROSOFT_ENTRA_ID_TENANT_ID` | App registration, Directory (tenant) ID |
-| `NEXT_PUBLIC_SUPABASE_URL` | Supabase project settings, API |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Supabase project settings, API (anon / publishable key) |
+| `SUPABASE_URL` | Supabase project settings, API |
+| `SUPABASE_PUBLISHABLE_KEY` | Supabase project settings, API (anon / publishable key) |
 | `SUPABASE_JWT_SECRET` | Supabase project settings, JWT secret (legacy HS256) |
 
 App registration requirements:
